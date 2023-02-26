@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FCCApplication</class>
+ <widget class="QMainWindow" name="FCCApplication">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1987</width>
+    <height>838</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FCCApplication</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_6">
+    <property name="geometry">
+     <rect>
+      <x>73</x>
+      <y>20</y>
+      <width>1736</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_8">
+     <item>
+      <widget class="QGroupBox" name="groupBox_8">
+       <property name="title">
+        <string/>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>1599</width>
+            <height>48</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="connect">
+          <property name="text">
+           <string>Connect</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Slot 1</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTreeWidget" name="treeWidget">
+            <column>
+             <property name="text">
+              <string notr="true">1</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Slot 2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTreeWidget" name="treeWidget_2">
+            <column>
+             <property name="text">
+              <string>New Column</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Slot 3</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTreeWidget" name="treeWidget_3">
+            <column>
+             <property name="text">
+              <string notr="true">1</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Slot 4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTreeWidget" name="treeWidget_4">
+            <column>
+             <property name="text">
+              <string notr="true">1</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>IOTP</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTreeWidget" name="treeWidget_5">
+            <column>
+             <property name="text">
+              <string notr="true">1</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_7">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>About</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTreeWidget" name="treeWidget_6">
+            <column>
+             <property name="text">
+              <string notr="true">1</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>2</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1987</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuInterface">
+    <property name="title">
+     <string>Interface</string>
+    </property>
+    <addaction name="actionsettings"/>
+    <addaction name="actionTest_All"/>
+    <addaction name="actionResults"/>
+    <addaction name="actionClear_Results_2"/>
+   </widget>
+   <widget class="QMenu" name="menuSlot1">
+    <property name="title">
+     <string>Slot 1  </string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionBIT"/>
+    <addaction name="actionBIT_2"/>
+    <addaction name="actionRS232"/>
+    <addaction name="actionRS422"/>
+    <addaction name="actionEthernet"/>
+    <addaction name="actionDIO"/>
+    <addaction name="actionXMC_Data"/>
+    <addaction name="actionTest_All_2"/>
+    <addaction name="actionClear_Results_3"/>
+   </widget>
+   <widget class="QMenu" name="menuSlot2">
+    <property name="title">
+     <string>Slot 2 </string>
+    </property>
+    <addaction name="actionDVI"/>
+    <addaction name="actionSDI"/>
+    <addaction name="actionHD_SDI_1"/>
+    <addaction name="actionHD_SDI_2"/>
+    <addaction name="actionTest_All_3"/>
+    <addaction name="actionClear_Results_4"/>
+   </widget>
+   <widget class="QMenu" name="menuSlot3">
+    <property name="title">
+     <string>Slot 3 </string>
+    </property>
+    <addaction name="actionRS422_2"/>
+    <addaction name="actionARNIC429_Rx"/>
+    <addaction name="actionARNIC429Tx"/>
+    <addaction name="action28V_open_discrete_input"/>
+    <addaction name="action28V_open_discrete_output"/>
+    <addaction name="actionMIL_1553B"/>
+    <addaction name="actionTest_All_4"/>
+    <addaction name="actionClear_results"/>
+   </widget>
+   <widget class="QMenu" name="menuSlot4">
+    <property name="title">
+     <string>Slot4 </string>
+    </property>
+    <addaction name="actionDiscrete_input_open_GND"/>
+    <addaction name="actionDiscrete_output_open_GND"/>
+    <addaction name="actionMIL_1553B_Analog_input"/>
+    <addaction name="actionTest_All_5"/>
+    <addaction name="actionClear_results_2"/>
+   </widget>
+   <widget class="QMenu" name="menuIOTP">
+    <property name="title">
+     <string>IOTP</string>
+    </property>
+    <addaction name="action_5V_Excitation"/>
+    <addaction name="action_5V_Excitation_2"/>
+    <addaction name="actionTest_All_6"/>
+    <addaction name="actionClear_results_3"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About </string>
+    </property>
+    <addaction name="actionFCC_Processor"/>
+    <addaction name="actionFCC_Application"/>
+   </widget>
+   <addaction name="menuInterface"/>
+   <addaction name="menuSlot1"/>
+   <addaction name="menuSlot2"/>
+   <addaction name="menuSlot3"/>
+   <addaction name="menuSlot4"/>
+   <addaction name="menuIOTP"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionsettings">
+   <property name="text">
+    <string>settings</string>
+   </property>
+  </action>
+  <action name="actionBIT">
+   <property name="text">
+    <string>BIT</string>
+   </property>
+  </action>
+  <action name="actionBIT_2">
+   <property name="text">
+    <string>Temperature</string>
+   </property>
+  </action>
+  <action name="actionRS232">
+   <property name="text">
+    <string>RS232</string>
+   </property>
+  </action>
+  <action name="actionRS422">
+   <property name="text">
+    <string>RS422</string>
+   </property>
+  </action>
+  <action name="actionEthernet">
+   <property name="text">
+    <string>Ethernet</string>
+   </property>
+  </action>
+  <action name="actionDIO">
+   <property name="text">
+    <string>DIO</string>
+   </property>
+  </action>
+  <action name="actionXMC_Data">
+   <property name="text">
+    <string>XMC Data</string>
+   </property>
+  </action>
+  <action name="actionDVI">
+   <property name="text">
+    <string>DVI</string>
+   </property>
+  </action>
+  <action name="actionSDI">
+   <property name="text">
+    <string>SDI</string>
+   </property>
+  </action>
+  <action name="actionHD_SDI_1">
+   <property name="text">
+    <string>HD SDI 1</string>
+   </property>
+  </action>
+  <action name="actionHD_SDI_2">
+   <property name="text">
+    <string>HD SDI 2</string>
+   </property>
+  </action>
+  <action name="actionRS422_2">
+   <property name="text">
+    <string>RS422</string>
+   </property>
+  </action>
+  <action name="actionARNIC429_Rx">
+   <property name="text">
+    <string>ARNIC429 Rx</string>
+   </property>
+  </action>
+  <action name="actionARNIC429Tx">
+   <property name="text">
+    <string>ARNIC429Tx</string>
+   </property>
+  </action>
+  <action name="action28V_open_discrete_input">
+   <property name="text">
+    <string>28V open discrete input</string>
+   </property>
+  </action>
+  <action name="action28V_open_discrete_output">
+   <property name="text">
+    <string>28V open discrete output</string>
+   </property>
+  </action>
+  <action name="actionMIL_1553B">
+   <property name="text">
+    <string>MIL 1553B</string>
+   </property>
+  </action>
+  <action name="actionDiscrete_input_open_GND">
+   <property name="text">
+    <string>Discrete input open GND</string>
+   </property>
+  </action>
+  <action name="actionDiscrete_output_open_GND">
+   <property name="text">
+    <string>Discrete output open GND</string>
+   </property>
+  </action>
+  <action name="actionMIL_1553B_Analog_input">
+   <property name="text">
+    <string>MIL 1553B Analog input</string>
+   </property>
+  </action>
+  <action name="action_5V_Excitation">
+   <property name="text">
+    <string>+5V Excitation</string>
+   </property>
+  </action>
+  <action name="action_5V_Excitation_2">
+   <property name="text">
+    <string>-5V Excitation</string>
+   </property>
+  </action>
+  <action name="actionFCC_Processor">
+   <property name="text">
+    <string>FCC Processor</string>
+   </property>
+  </action>
+  <action name="actionFCC_Application">
+   <property name="text">
+    <string>FCC Application</string>
+   </property>
+  </action>
+  <action name="actionTest_All">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionResults">
+   <property name="text">
+    <string>Test All</string>
+   </property>
+  </action>
+  <action name="actionClear_Results">
+   <property name="text">
+    <string>Clear Results</string>
+   </property>
+  </action>
+  <action name="actionClear_Results_2">
+   <property name="text">
+    <string>Clear Results</string>
+   </property>
+  </action>
+  <action name="actionTest_All_2">
+   <property name="text">
+    <string>Test All</string>
+   </property>
+  </action>
+  <action name="actionClear_Results_3">
+   <property name="text">
+    <string>Clear Results</string>
+   </property>
+  </action>
+  <action name="actionTest_All_3">
+   <property name="text">
+    <string>Test All</string>
+   </property>
+  </action>
+  <action name="actionClear_Results_4">
+   <property name="text">
+    <string>Clear Results</string>
+   </property>
+  </action>
+  <action name="actionTest_All_4">
+   <property name="text">
+    <string>Test All</string>
+   </property>
+  </action>
+  <action name="actionClear_results">
+   <property name="text">
+    <string>Clear results</string>
+   </property>
+  </action>
+  <action name="actionTest_All_5">
+   <property name="text">
+    <string>Test All</string>
+   </property>
+  </action>
+  <action name="actionClear_results_2">
+   <property name="text">
+    <string>Clear results</string>
+   </property>
+  </action>
+  <action name="actionTest_All_6">
+   <property name="text">
+    <string>Test All</string>
+   </property>
+  </action>
+  <action name="actionClear_results_3">
+   <property name="text">
+    <string>Clear results</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
