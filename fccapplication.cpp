@@ -5,7 +5,7 @@
 #include <QMessageBox>
 #include <QString>
 
-
+//nothin happend
 
 FCCApplication::FCCApplication(QWidget *parent)
     : QMainWindow(parent)
